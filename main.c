@@ -23,7 +23,7 @@
 const int16_t ground_offset = 1979;
 
 // The relationship between ADC units and volts
-const float gain = 0.0167025;
+const float gain = 0.01712;
 
 volatile int16_t voltage = 0;
 volatile bool led_active;
